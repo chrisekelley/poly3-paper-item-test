@@ -3,7 +3,7 @@ import {Element as PolymerElement}
 
 import '../../node_modules/@polymer/paper-item/paper-item-body.js';
 
-class TestApp extends Element {
+class TestApp extends PolymerElement {
   static get template() {
     return `
       <div id="test-content">
